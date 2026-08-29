@@ -156,6 +156,11 @@ After running the notebooks, several CSV files are generated (metrics, confusion
   - Use fields such as Age group, Gender, Region vs. Risk class.
   - Visualize distribution of high‑risk vs low‑risk across demographic groups.
 
+### Publication
+
+PsyPredict — An EVM Based Postpartum Depression Predictor
+IEEE Publication.
+
 ### 8. Future Enhancements
 -Perform systematic hyperparameter tuning (GridSearchCV / RandomizedSearchCV).
 -Use cross‑validation for more robust evaluation.
