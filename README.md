@@ -180,3 +180,6 @@ IEEE Publication.
 <img width="521" height="421" alt="image" src="https://github.com/user-attachments/assets/3ae0e14b-dd32-4296-9375-044abcdc9478" />
 
 
+## 🤝 Contribute & Collaborate
+
+Have an idea for improving PsyPredict? Contributions and new approaches are always welcome — feel free to open an issue or reach out to me on [LinkedIn](https://www.linkedin.com/in/bhargavi-singh-671745286/) to collaborate on future enhancements.
