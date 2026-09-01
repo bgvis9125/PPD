@@ -11,6 +11,22 @@ Main goals:
 - Evaluate models using multiple metrics (Accuracy, Precision, Recall, F1, ROC‑AUC).
 - Analyze feature importance, model errors, and demographic patterns using Tableau dashboards.
 
+## 🔬 Research Landscape & Project Contribution
+
+| Existing Technology / Approach       | Common Gap / Limitation                                                                                             | PsyPredict's Contribution                                                                                                  |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| **Traditional screening approaches** | Depend heavily on manual assessment and may not provide scalable, data-driven risk estimation.                      | Builds an ML-based risk prediction pipeline for automated assessment of postpartum depression risk.                        |
+| **Single ML classifiers**            | Individual models may provide different performance characteristics and can be sensitive to the underlying dataset. | Benchmarks **XGBoost, SVM and neural-network approaches** rather than relying on a single classifier.                      |
+| **Imbalanced healthcare datasets**   | Minority-risk cases can be underrepresented, reducing predictive reliability.                                       | Applies preprocessing strategies specifically to address **class imbalance**.                                              |
+| **Model-only prediction systems**    | Prediction outputs can be difficult for non-technical stakeholders to interpret and monitor.                        | Integrates predictions into an **interactive visualization dashboard**.                                                    |
+| **Conventional ensemble approaches** | Combining models can improve robustness, but effectiveness depends on the models and voting strategy used.          | Evaluates an **ensemble voting approach**, achieving the strongest reported accuracy of **94%** in the project evaluation. |
+
+### 💡 What Differentiates PsyPredict
+
+The project combines **class-imbalance handling, multi-model benchmarking, ensemble prediction and an interactive monitoring dashboard** into a single end-to-end pipeline rather than evaluating a model in isolation.
+
+
+
 ## 2. Dataset
 
 - File: `post-natal-data.csv`
